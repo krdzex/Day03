@@ -1,8 +1,8 @@
-function main(numOne, numTwo){
+function main(numOne, numTwo) {
     // Only change code below this line
-var numOne  = numOne;
-var numTwo = numTwo;
-var difference = numOne - numTwo;
+    var numOne = numOne;
+    var numTwo = numTwo;
+    var difference = numOne - numTwo;
     // Only change code above this line
     return difference;
 
@@ -10,4 +10,4 @@ var difference = numOne - numTwo;
 console.log(main(15, 8));
 console.log(main(25, 8));
 console.log(main(425, 120));
-module.experts = main;
+module.exports = main;
